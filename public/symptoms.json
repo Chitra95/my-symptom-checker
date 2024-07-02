@@ -1,0 +1,165 @@
+{
+    "symptoms": [
+      {
+        "id": 1,
+        "name": "Fever",
+        "description": "Elevated body temperature above normal.",
+        "severity": "Mild to High",
+        "related_conditions": ["Flu", "COVID-19", "Common Cold"],
+        "management": "Rest, hydration, and over-the-counter fever reducers."
+      },
+      {
+        "id": 2,
+        "name": "Cough",
+        "description": "Expelling air from the lungs with a sudden, sharp sound.",
+        "severity": "Mild to Severe",
+        "related_conditions": ["Bronchitis", "Pneumonia", "Asthma"],
+        "management": "Cough syrup, hydration, and avoiding irritants."
+      },
+      {
+        "id": 3,
+        "name": "Headache",
+        "description": "Pain in the head or upper neck.",
+        "severity": "Mild to Moderate",
+        "related_conditions": ["Migraine", "Tension Headache", "Sinusitis"],
+        "management": "Pain relievers, rest, and stress reduction."
+      },
+      {
+        "id": 4,
+        "name": "Fatigue",
+        "description": "Feeling of tiredness or lack of energy.",
+        "severity": "Mild to Severe",
+        "related_conditions": ["Anemia", "Chronic Fatigue Syndrome", "Depression"],
+        "management": "Adequate sleep, balanced diet, and regular exercise."
+      },
+      {
+        "id": 5,
+        "name": "Sore Throat",
+        "description": "Pain or irritation in the throat.",
+        "severity": "Mild to Moderate",
+        "related_conditions": ["Strep Throat", "Viral Pharyngitis", "Allergies"],
+        "management": "Saltwater gargles, throat lozenges, and hydration."
+      },
+      {
+        "id": 6,
+        "name": "Nausea",
+        "description": "Feeling of sickness with an inclination to vomit.",
+        "severity": "Mild to Moderate",
+        "related_conditions": ["Gastroenteritis", "Pregnancy", "Food Poisoning"],
+        "management": "Ginger, hydration, and avoiding strong odors."
+      },
+      {
+        "id": 7,
+        "name": "Diarrhea",
+        "description": "Frequent loose or liquid bowel movements.",
+        "severity": "Mild to Severe",
+        "related_conditions": ["Irritable Bowel Syndrome", "Infection", "Food Allergy"],
+        "management": "Hydration, probiotics, and avoiding dairy."
+      },
+      {
+        "id": 8,
+        "name": "Chest Pain",
+        "description": "Pain or discomfort in the chest area.",
+        "severity": "Mild to Severe",
+        "related_conditions": ["Heart Attack", "Angina", "Heartburn"],
+        "management": "Immediate medical attention, rest, and medications."
+      },
+      {
+        "id": 9,
+        "name": "Shortness of Breath",
+        "description": "Difficulty breathing or feeling suffocated.",
+        "severity": "Mild to Severe",
+        "related_conditions": ["Asthma", "COPD", "Pneumonia"],
+        "management": "Inhalers, oxygen therapy, and avoiding allergens."
+      },
+      {
+        "id": 10,
+        "name": "Rash",
+        "description": "Area of irritated or swollen skin.",
+        "severity": "Mild to Moderate",
+        "related_conditions": ["Allergic Reaction", "Eczema", "Psoriasis"],
+        "management": "Topical creams, antihistamines, and avoiding irritants."
+      },
+      {
+        "id": 11,
+        "name": "Joint Pain",
+        "description": "Discomfort, aches, or soreness in the joints.",
+        "severity": "Mild to Severe",
+        "related_conditions": ["Arthritis", "Bursitis", "Gout"],
+        "management": "Pain relievers, anti-inflammatory medications, and rest."
+      },
+      {
+        "id": 12,
+        "name": "Dizziness",
+        "description": "Feeling lightheaded or unsteady.",
+        "severity": "Mild to Moderate",
+        "related_conditions": ["Vertigo", "Dehydration", "Low Blood Sugar"],
+        "management": "Hydration, lying down, and monitoring blood sugar levels."
+      },
+      {
+        "id": 13,
+        "name": "Abdominal Pain",
+        "description": "Pain or discomfort in the abdomen.",
+        "severity": "Mild to Severe",
+        "related_conditions": ["Appendicitis", "Gastritis", "Irritable Bowel Syndrome"],
+        "management": "Antacids, rest, and avoiding certain foods."
+      },
+      {
+        "id": 14,
+        "name": "Swelling",
+        "description": "Enlargement of body parts due to fluid accumulation.",
+        "severity": "Mild to Severe",
+        "related_conditions": ["Edema", "Injury", "Infection"],
+        "management": "Elevation, compression, and ice packs."
+      },
+      {
+        "id": 15,
+        "name": "Numbness",
+        "description": "Loss of sensation in a part of the body.",
+        "severity": "Mild to Moderate",
+        "related_conditions": ["Neuropathy", "Stroke", "Multiple Sclerosis"],
+        "management": "Physical therapy, medications, and addressing underlying conditions."
+      },
+      {
+        "id": 16,
+        "name": "Blurred Vision",
+        "description": "Lack of sharpness of vision.",
+        "severity": "Mild to Severe",
+        "related_conditions": ["Refractive Errors", "Cataracts", "Glaucoma"],
+        "management": "Corrective lenses, surgery, and managing underlying conditions."
+      },
+      {
+        "id": 17,
+        "name": "Earache",
+        "description": "Pain in the ear.",
+        "severity": "Mild to Severe",
+        "related_conditions": ["Ear Infection", "Eustachian Tube Dysfunction", "TMJ Disorder"],
+        "management": "Pain relievers, warm compresses, and decongestants."
+      },
+      {
+        "id": 18,
+        "name": "Itching",
+        "description": "Uncomfortable sensation on the skin causing the urge to scratch.",
+        "severity": "Mild to Severe",
+        "related_conditions": ["Allergic Reaction", "Eczema", "Scabies"],
+        "management": "Antihistamines, topical creams, and avoiding triggers."
+      },
+      {
+        "id": 19,
+        "name": "Loss of Appetite",
+        "description": "Decreased desire to eat.",
+        "severity": "Mild to Severe",
+        "related_conditions": ["Depression", "Chronic Illness", "Gastrointestinal Disorders"],
+        "management": "Small, frequent meals, appetite stimulants, and addressing underlying conditions."
+      },
+      {
+        "id": 20,
+        "name": "Weight Loss",
+        "description": "Unintentional loss of body weight.",
+        "severity": "Mild to Severe",
+        "related_conditions": ["Cancer", "Diabetes", "Thyroid Disorders"],
+        "management": "Nutritional support, addressing underlying conditions, and monitoring."
+      }
+    ]
+  }
+  
